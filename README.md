@@ -6,6 +6,10 @@ Category- Reservation Website
 The website will support, mobile devices and be responsive 
 To user by the use of Javascript.
 
+## Credits
+
+
+
 ## License
 
 **Copyright (c) Ranul Ladduwahetty. All rights reserved.**
