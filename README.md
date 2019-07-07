@@ -10,7 +10,7 @@ NSBM Plymouth Computing - 2nd Semester SE 102.3 WEB Module Assignment.
 
 ## Credits
 
-###Team Members###
+**Team Members**
 
 Head (Founder)- Mr. R P Ladduwahetty
 Deputy Head - Mr.  H V L Hasanka
