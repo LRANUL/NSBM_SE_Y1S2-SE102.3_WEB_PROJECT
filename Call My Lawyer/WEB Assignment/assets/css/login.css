@@ -1,0 +1,78 @@
+#remember_me_align{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	margin-top: 4px;
+	display: inline-block;
+	color: #7A7A7A;
+}
+
+#logo_img{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.login_txt_font{
+	font-size: 15pt;
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+}
+
+#login_mainsection{
+	width: 250px;
+	height: 395px;
+	padding: auto;
+	border-radius: 20px;
+	margin: auto;
+}
+
+.textbox{
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+#login_btn{
+	width: 235px;
+	margin-top: 15px;
+}
+
+button[type=submit]{
+	background-color: #4BDEE0;
+	color: white;
+	padding: 9px;
+	margin: 18px 0px 0px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16pt;
+}
+
+button[type=submit]:hover {
+	background-color: #00C8FB;
+}
+
+input[type=text], [type=password]{
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;/*thickness of the boarder*/
+	border-radius: 7px;
+	box-sizing: border-box;
+}
+
+#fup_text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	margin-top: 4px;
+	color: #7A7A7A;
+	position: relative;
+	top: 12px;
+	left: 100px;
+}
+
+#fup_text_link{
+	text-decoration: none;
+}

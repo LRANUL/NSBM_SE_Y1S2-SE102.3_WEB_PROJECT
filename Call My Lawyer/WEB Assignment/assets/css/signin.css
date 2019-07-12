@@ -1,0 +1,194 @@
+#form_mainsection{
+	padding: 5px;
+}
+
+#logo_img{
+	position: relative;
+	left: 55px;
+	bottom: 7px;
+}
+
+#form_subsection{
+	width: 490px;
+	height: 1365px;
+	padding: 60px;
+	padding-top: 20px;
+	border-radius: 20px;
+}
+
+#heading_font{
+	font-size: 30pt;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 0px;
+}
+
+.textbox_heading{
+	font-size: 15pt;
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 0px;
+}
+
+.textbox{
+	margin-bottom: 0px;
+	font-size: 16px;
+	position: relative;
+	display: inline-block;
+}
+
+
+input[type=text], [type=email], [type=password], select{
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;/*thickness of the boarder*/
+	border-radius: 7px;
+	box-sizing: border-box;
+}
+
+button[type=submit], input[type=reset]{
+	background-color: #4BDEE0;
+	color: white;
+	padding: 14px 20px;
+	margin: 18px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type=submit]:hover,input[type=reset]:hover{
+	background-color: #00C8FB;
+}
+
+
+#email_textbox{
+	width: 250px;
+	border-radius: 7px;
+	font-size: 16px;
+}
+
+.pnum_ac_textbox{
+	width: 118px;
+	padding: 0px;
+	position: relative;
+	left: 15px;
+	border-radius: 7px;
+	font-size: 16px;
+}
+
+.pnum_pn_textbox{
+	position: relative;
+	left: 15px;
+	border-radius: 7px;
+	font-size: 16px;
+}
+
+.pn_text{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 4px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.t_a_c_aligninginstraightline{
+	display: inline-block;
+	margin: 10px;
+}
+
+#t_a_c_text{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	margin-top: 4px;
+	position: relative;
+	left: 15px;
+	line-height: 1.5;
+}
+
+#t_a_c_link{
+	text-decoration: none;
+}
+
+#p_selection{
+	font-size: 16px;
+	color: grey;
+}
+
+#btn_reg_form_submit{
+	margin: 30px;
+	padding: 8px;
+	margin-left: 50px;
+	font-size: 15pt;
+}
+
+#btn_reg_form_reset{
+	margin: 30px;
+	padding: 8px;
+	margin-left: 55px;
+	font-size: 15pt;
+}
+
+.s_province_text{
+	padding: 10px;
+}
+
+/*bottom tooltip*/
+
+.tooltip_box_bottom .tooltip_text_bottom{
+	visibility: hidden;
+	width: 190px;
+	background-color: #4B4B4B;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip_box_bottom .tooltip_text_bottom::after{ /*small arrow on top of tooltip*/
+	content: " ";
+	position: absolute;
+	bottom: 100%;  
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #4B4B4B transparent;
+}
+
+.tooltip_box_bottom:hover .tooltip_text_bottom{
+ 	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip_text_bottom{
+	font-size: 10pt;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+/*right tooltip*/
+
+.tooltip_box_right .tooltip_text_right{
+	visibility: hidden;
+	width: 190px;
+	background-color: #4B4B4B;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip_box_right:hover .tooltip_text_right{
+ 	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip_text_right{
+	font-size: 10pt;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
