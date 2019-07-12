@@ -1,5 +1,5 @@
 <?php
-	echo "<center><img src='logo.png' width='50%'></center>";
+	echo "<center><img src='assets/images/logo.png' width='50%'></center>";
 
 	echo "<br><br>";
 
