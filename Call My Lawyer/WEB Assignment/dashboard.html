@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<title>Dashboard</title>
+</head>
+<body>
+	<div id="container">
+		<img src="logo.png" alt="logo" width="15%" id="img_logo">
+		<div class="menu_bar">
+			<img src="logout_icon.png" alt="logout icon" width="5%">
+			<a href="#" class="menu_bar_text">Logout</a>
+		</div>
+		<div class="menu_bar">
+			<img src="settings_icon.png" alt="setting icon" width="5%">
+			<a href="dashboard_setting.html" class="menu_bar_text">Settings</a>
+		</div>
+	</div>
+	<center>
+		<div id="second_bar">
+			<img src="dashboard_icon.png" alt="setting icon" width="2%" id="second_bar_img_db">
+			<p id="second_bar_text">Dashboard</p>
+		</div>
+	</center>
+	<center>
+		<div id="r_lawyer_container">
+			<form action="http://localhost/call_my_lawyer_php/section_dashboard/search_lawyer.php" method="POST">
+				<table>
+					<tr>
+						<td><p id="r_lawyer">Reserve a Lawyer</p></td>
+					</tr>
+					<tr>
+						<td>
+							<select name="type_lawyer">
+								<option value="selectlawyer">Type of Lawyer</option>
+								<option value="Business">Business</option>
+								<option value="Contracts and Litigation">Contracts and Litigation</option>
+								<option value="Criminal Charges">Criminal Charges</option>
+								<option value="Depth Recovery">Depth Recovery</option>
+								<option value="Employment and Labor">Employment and Labor</option>
+								<option value="Family">Family</option>
+								<option value="Immigration">Immigration</option>
+								<option value="Real Estate">Real Estate</option>
+								<option value="Taxation">Taxation</option>
+								<option value="Government and Health">Government and Health</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button type="submit" name="btn_search" id="btn_search">Search</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</center>
+</body>
+</html>

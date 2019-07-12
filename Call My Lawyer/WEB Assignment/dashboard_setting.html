@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="dashboard_setting.js"></script>
+	<link rel="stylesheet" type="text/css" href="dashboard_setting.css">
+	<title>Setting</title>
+</head>
+<body>
+	<div id="container">
+		<img src="logo.png" alt="logo" width="15%" id="img_logo">
+		<div class="menu_bar">
+			<img src="logout_icon.png" alt="logout icon" width="5%">
+			<a href="#" class="menu_bar_text">Logout</a>
+		</div>
+		<div class="menu_bar">
+			<img src="dashboard_icon.png" alt="setting icon" width="5%">
+			<a href="dashboard.html" class="menu_bar_text">Dashboard</a>
+		</div>
+	</div>
+	<center>
+	<div id="second_bar">
+		<img src="settings_icon.png" alt="setting icon" width="2%" id="second_bar_img">
+		<p id="second_bar_text">Settings</p>
+	</div>
+	</center>
+	<center>
+		<section id="form_mainsection">
+			<div id="form_subsection">
+				<form action="http://localhost/call_my_lawyer_php/update_details.php" method="POST" onSubmit="return check_password(this);">
+					<table>
+						<tr> 
+							<td><p id="heading_font">Update Details</p></td>
+							<td>
+									<img src="logo.png" width="80%" alt="logo" id="logo_img">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<p id="main_text_under_logo">Enter new details to update database, <br><b>Mandatory to fill EMAIL ADDRESS below to update any details</b></p>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="textbox_heading">Email Address</p></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tooltip_box_right">
+								<input type="email" name="email" placeholder="eg:- text@provider.com" class="up_textbox" required>
+								<span class="tooltip_text_right">Mandatory to fill, <br> Enter Valid Email Address</span>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="textbox_heading">Field</p></td>
+						</tr>
+						<tr>
+							<td class="tooltip_box_right">
+							  <select name="type_field" class="up_textbox">
+									<option value="selectlawyer">Select Option</option>
+									<option value="first_name">First Name</option>
+									<option value="last_name">Last Name</option>
+									<option value="nic">NIC</option>
+									<option value="password">Password</option>
+									<option value="mobile_number_area_code">Mobile Nummber - Area Code</option>
+									<option value="mobile_number_phone_number">Mobile Nummber - Phone Number</option>
+									<option value="land_number_area_code">Land Nummber - Area Code</option>
+									<option value="land_number_phone_number">Land Number - Phone Number</option>
+									<option value="street_address_line_1">Street Address Line 1</option>
+									<option value="street_address_line_">Street Address Line 2</option>
+									<option value="address_city">City</option>
+									<option value="address_province">Province</option>
+									<option value="address_postal_zipcode">Postal/Zip Code</option>
+								</select>
+								<span class="tooltip_text_right">Select Relavant Field</span>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="textbox_heading">New Value</p></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tooltip_box_right">
+								<input type="text" name="new_value" class="up_textbox">
+								<span class="tooltip_text_right">Mandatory to fill, <br> Enter New Value</span>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="textbox_heading">New passowrd</p></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tooltip_box_right">
+							  <input type="password" name="n_password" class="up_textbox" placeholder="Only for Password Update">
+								<span class="tooltip_text_right">Not Mandatory to fill, <br> Only Applicable for Password Update,<br> Confirm Passowrd</span>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="textbox_heading">Confirm New Password</p></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tooltip_box_right">
+							  <input type="password" name="c_n_password" class="up_textbox" placeholder="Only for Password Update">
+								<span class="tooltip_text_right">Not Mandatory to fill, <br> Only Applicable for Password Update,<br> Confirm Passowrd</span>
+							</td>
+						</tr>
+					  <tr>
+							<td><button type="submit" name="submit" id="btn_reg_form_submit">Update</button></td>
+							<td><input type="reset" name="reset" id="btn_reg_form_reset"></td>
+						</tr>
+	 				</table>
+				</form>
+			</div>
+		</section>
+	</center>
+	<center>
+		<div id="remove_account_section">
+			<form action="http://localhost/call_my_lawyer_php/remove_account.php" method="POST">
+				<table>
+					<tr>
+						<td id="r_a_maintext">Delete Account</td>
+					</tr>
+					<tr>
+						<td><p class="textbox_heading">Enter Email Address</p></td>
+					</tr>
+					<tr>
+						<td class="tooltip_box_right">
+							<input type="email" name="email_a" placeholder="eg:- text@provider.com" class="textbox">
+							<span class="tooltip_text_right">Mandatory to fill, <br> Enter Valid Email Address</span>
+						</td>
+					</tr>
+					<tr>
+						<td><button type="submit" name="btn_remove" id="btn_r_s">Remove Account</button></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</center>
+</body>
+</html>
