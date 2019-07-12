@@ -1,0 +1,23 @@
+#table{
+	margin-top: 20px;
+	width: 1200px;
+	line-height: 25px;
+}
+
+.column_heading_txt{
+	font-size: 15pt;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	line-height: 25px;
+	margin: 5px;
+}
+
+.column_text{
+	font-size: 10pt;
+	font-family: 'Roboto', sans-serif;
+}
+
+#link_text{
+	text-decoration: none;
+	color: black;
+}

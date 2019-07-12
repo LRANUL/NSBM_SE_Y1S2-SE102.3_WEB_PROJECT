@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+}
+
+#container{
+	margin: auto;
+	width: 1276px;
+	height: 50px;
+	background-color: #D6D6D6;
+}
+
+#img_logo{
+	padding: 5px;
+}
+
+#r_lawyer{
+	font-size: 15pt;
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 0px;
+}
+
+#second_bar{
+	height: 50px;
+	width: 1256px;
+	background-color: #D6D6D6;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+#second_bar_text{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding: 5px;
+	font-size: 20pt;
+	display: inline;
+}
+
+.menu_bar{
+	float: right;
+	position: relative;
+	top: 10px;
+	left: 250px;
+	width: 400px;
+	height: 200px;
+}
+
+.menu_bar_text{
+	text-decoration: none;
+	color: #1E1E1E;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-right: 20px;
+	font-size: 20pt;
+}
+
+#main_r_lawyer{
+	margin: auto;
+}
+
+#r_lawyer_container{
+	width: 360px;
+	height: 165px;
+	background-color: #F2F2F2;
+	margin-top: 50px;
+	margin-left: 100px;
+	border-radius: 20px;
+	padding: 50px;
+	padding-top: 20px;
+}
+
+select{
+	padding: 12px 20px;
+	margin: 20px 0;
+	display: inline-block;
+	border: 1px solid #ccc;/*thickness of the boarder*/
+	border-radius: 7px;
+	box-sizing: border-box;
+	width: 350px;
+	font-size: 13pt;
+}
+
+button[type=submit]{
+	background-color: #4BDEE0;
+	color: white;
+	width: 350px;
+	padding: 14px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type=submit]:hover{
+	background-color: #00C8FB;
+}
+
+#btn_search{
+	padding: 8px;
+	font-size: 12pt;
+}
+
+
+#second_bar_img_db {
+	padding-top: 10px;
+}

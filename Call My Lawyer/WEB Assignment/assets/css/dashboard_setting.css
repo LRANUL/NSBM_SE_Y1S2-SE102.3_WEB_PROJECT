@@ -1,0 +1,183 @@
+body{
+	margin: 0px;
+}
+
+#container{
+	margin: auto;
+	width: 1276px;
+	height: 50px;
+	background-color: #D6D6D6;
+}
+
+#img_logo{
+	padding: 5px;
+}
+
+.menu_bar{
+	float: right;
+	position: relative;
+	top: 10px;
+	left: 250px;
+	width: 400px;
+	height: 200px;
+}
+
+.menu_bar_text{
+	text-decoration: none;
+	color: #1E1E1E;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-right: 20px;
+	font-size: 20pt;
+}
+
+#second_bar{
+	height: 50px;
+	width: 1256px;
+	background-color: #D6D6D6;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+#second_bar_text{
+	position: relative;
+	display: inline;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20pt;
+}
+
+#second_bar_img{
+	padding: 5px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#form_mainsection{
+	padding: 5px;
+}
+
+#logo_img{
+	position: relative;
+	left: 55px;
+	bottom: 7px;
+}
+
+#form_subsection{
+	width: 490px;
+	height: 820px;
+	background-color: #f2f2f2;
+	padding: 60px;
+	border-radius: 20px;
+}
+
+#heading_font{
+	font-size: 27pt;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 0px;
+}
+
+.textbox_heading{
+	font-size: 15pt;
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 0px;
+	width: 220px;
+}
+
+
+
+input[type=text], [type=email], [type=password], select{
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;/*thickness of the boarder*/
+	border-radius: 7px;
+	box-sizing: border-box;
+}
+
+button[type=submit], input[type=reset]{
+	background-color: #4BDEE0;
+	color: white;
+	padding: 14px 20px;
+	margin: 18px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type=submit]:hover,input[type=reset]:hover{
+	background-color: #00C8FB;
+}
+
+.up_textbox{
+	width: 250px;
+	border-radius: 7px;
+	font-size: 16px;
+}
+
+
+#btn_reg_form_submit{
+	margin: 30px;
+	padding: 8px;
+	margin-left: 50px;
+	font-size: 15pt;
+}
+
+#btn_reg_form_reset{
+	margin: 30px;
+	padding: 8px;
+	margin-left: 55px;
+	font-size: 15pt;
+}
+
+/*right tooltip*/
+
+.tooltip_box_right .tooltip_text_right{
+	visibility: hidden;
+	width: 190px;
+	background-color: #4B4B4B;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip_box_right:hover .tooltip_text_right{
+ 	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip_text_right{
+	font-size: 10pt;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+#main_text_under_logo {
+	text-align: center;
+	font-size: 15pt;
+	font-family:  'Work Sans', sans-serif;
+	margin: 5px;
+	margin-top: 25px;
+}
+
+#remove_account_section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	width: 490px;
+	height: 225px;
+	background-color: #f2f2f2;
+	padding: 60px;
+}
+
+#r_a_maintext {
+	font-size: 27pt;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#btn_r_s {
+	font-size: 12pt;
+	width: 237px;
+}
