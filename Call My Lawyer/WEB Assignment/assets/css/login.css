@@ -23,13 +23,15 @@
 #login_mainsection{
 	width: 250px;
 	height: 395px;
-	padding: auto;
+	background-color: #F2F2F2;
+	padding: 60px;
+	padding-top: 20px;
 	border-radius: 20px;
 	margin: auto;
 }
 
 .textbox{
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	font-size: 16px;
 }
 

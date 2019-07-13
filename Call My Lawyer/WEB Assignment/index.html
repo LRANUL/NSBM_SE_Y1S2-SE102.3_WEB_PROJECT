@@ -62,7 +62,7 @@
                             <li><a href="policy.html">Terms</a></li>
                         </ul>
                     </li>
-                    <li><a href="Support.html">Support</a></li>
+                    <li><a href="contact.html">Support</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -248,25 +248,25 @@
             <div class="col-lg-6 offset-lg-1 align-self-center">
                 <div class="appointment-form text-center mt-5 mt-lg-0">
                     <h3 class="mb-5">Make Your Reservation Now</h3>
-                    <form action="#">
+                    <form action="https://formspree.io/webpjt040@gmail.com" method="post">
                         <div class="form-group">
                             <input type="text" placeholder="Your Name" onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = 'Your Name'" required>
+                                   onblur="this.placeholder = 'Your Name'" required name="name">
                         </div>
                         <div class="form-group">
                             <input type="email" placeholder="Your Email" onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = 'Your Email'" required>
+                                   onblur="this.placeholder = 'Your Email'" required name="email">
                         </div>
                         <div class="form-group">
                             <input type="text" id="datepicker" placeholder="Date" onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = 'Date'" required>
+                                   onblur="this.placeholder = 'Date'" required name="date">
                         </div>
                         <div class="form-group">
                             <textarea name="message" cols="20" rows="7" placeholder="Message"
                                       onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'"
                                       required></textarea>
                         </div>
-                        <a href="#" class="template-btn">Call My Lawyer</a>
+                        <button type="submit" class="template-btn">Call My Lawyer</button>
                     </form>
                 </div>
             </div>
@@ -309,8 +309,8 @@
                     <div class="single-widget-home mb-5 mb-lg-0">
                         <h3 class="mb-4">Newsletter</h3>
                         <p class="mb-4">Subscribe for our newsletters, and get the best out of our services</p>
-                        <form action="#">
-                            <input type="email" placeholder="Your email here" onfocus="this.placeholder = ''"
+                        <form action="http://localhost/call_my_lawyer_php/n/newsletter_email.php" method="POST">
+                            <input type="email" placeholder="Your email here" name="newsletter" onfocus="this.placeholder = ''"
                                    onblur="this.placeholder = 'Your email here'" required>
                             <button type="submit" class="template-btn">subscribe now</button>
                         </form>
