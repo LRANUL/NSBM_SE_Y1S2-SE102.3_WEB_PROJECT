@@ -1,7 +1,7 @@
 #remember_me_align{
 	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
-	margin: 0px;
+	margin: 12px;
 	margin-top: 4px;
 	display: inline-block;
 	color: #7A7A7A;
@@ -23,7 +23,7 @@
 #login_mainsection{
 	width: 250px;
 	height: 395px;
-	background-color: #F2F2F2;
+
 	padding: 60px;
 	padding-top: 20px;
 	border-radius: 20px;

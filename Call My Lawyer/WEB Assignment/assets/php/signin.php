@@ -1,9 +1,9 @@
 <?php
-	echo "<center><img src='logo.png' width='50%'></center>";
+	echo "<center><img src='http://localhost/WEB%20Assignment/assets/images/logo.png' width='50%'></center>";
 
 	echo "<br><br>";
 
-	$con = mysqli_connect("localhost","root","","callmylawyer_db");
+	$con = mysqli_connect("localhost","root","root","callmylawyer_db");
 	
 	if(!$con){
 		die("Database Connection Unsuccessful!");
@@ -30,13 +30,13 @@
 	
 	if(mysqli_query($con,$query)){
 		echo "<h1><center>You have successfully registered.</center></h1><br>";
-		echo "<h3><center><a href='http://localhost/call_my_lawyer_php/section_login/login.html'>Click here to redirect you to the <i>Call My Lawyer Login Page</i></a></center></h3>";
-		echo "<h3><center><a href='#'>Click here to redirect you to the <i>Call My Lawyer Home Page</i></a></center></h3>";
+		echo "<h3><center><a href='http://localhost/WEB%20Assignment/login.html'>Click here to redirect you to the <i>Call My Lawyer Login Page</i></a></center></h3>";
+		echo "<h3><center><a href='http://localhost/WEB%20Assignment/index.html'>Click here to redirect you to the <i>Call My Lawyer Home Page</i></a></center></h3>";
 	}
 	else{
 		echo "<h1><center><b>Something went wrong! Please refill form and resubmit</a></center></h1>";
-		echo "<h3><center><a href='http://localhost/call_my_lawyer_php/section_signin/signin.html'>Click here to redirect you to the <i>Call My Laywer Registration Page</i></a></center></h3>";
-		echo "<h3><center><a href='#'>Click here to redirect you to the <i>Call My Laywer Home Page</i></a></center></h3>";
+		echo "<h3><center><a href='http://localhost/WEB%20Assignment/register.html'>Click here to redirect you to the <i>Call My Laywer Registration Page</i></a></center></h3>";
+		echo "<h3><center><a href='http://localhost/WEB%20Assignment/index.html'>Click here to redirect you to the <i>Call My Laywer Home Page</i></a></center></h3>";
 	}
 
 	mysqli_close($con);

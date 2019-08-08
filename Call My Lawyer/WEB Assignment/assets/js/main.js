@@ -1,5 +1,5 @@
 (function($) {
-    "use strict"
+    "use strict";
     jQuery(document).ready(function() {
 
         // Initiate superfish on nav menu

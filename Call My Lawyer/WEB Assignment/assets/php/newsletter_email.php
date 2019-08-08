@@ -1,5 +1,5 @@
 <?php
-	$con = mysqli_connect("localhost","root","","callmylawyer_db");
+	$con = mysqli_connect("localhost","root","root","callmylawyer_db");
 	if(!$con)
 	{
 		die("Database Connection Unsuccessful");
@@ -14,7 +14,7 @@
 
 		if(mysqli_query($con,$query)){
 			echo "<script type='text/javascript'>alert('You have successfully Subscribed to the Newsletter');</script>";
-			header("Location: http://localhost/call_my_lawyer_php/i/index.html");
+			header("Location: http://localhost/WEB%20Assignment/index.html");
 		}
 		else{
 			echo "Something went wrong. Please go back and resubmit";

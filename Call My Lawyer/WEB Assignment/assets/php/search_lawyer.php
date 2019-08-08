@@ -1,5 +1,5 @@
 <?php
-	$con=mysqli_connect("localhost","root","","callmylawyer_db");
+	$con=mysqli_connect("localhost","root","root","callmylawyer_db");
 	if(!$con) echo "Database Connection Unsuccessful";
 	$db=mysqli_select_db($con,"callmylawyer_db");
 	$type_lawyer_f = $_POST["type_lawyer"];
@@ -10,16 +10,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="search_lawyer.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost/WEB%20Assignment/assets/css/search_lawyer.css">
 	<title>Searching Lawyer</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:hover {background-color: greenyellow;}
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: royalblue;
+            color: white;
+        }
+    </style>
 </head>
 	<body>
 		<center>
-			<img src="assets/images/logo.png" alt="logo" width="50%">
+			<img src="http://localhost/WEB%20Assignment/assets/images/logo.png" alt="logo" width="50%">
 		</center>
-		<table id="table" align="center" border="1px">
+		<table id="table" align="center" border="1px solid">
 			<tr>
-				<td colspan="8"><center><h2>Lawyers Found</h2></center></td>
+				<th colspan="8"><center><h2>Lawyers Found</h2></center></th>
 			</tr>
 			<tr>
 				<td><p class="column_heading_txt">Type of Lawyer</p></td>
@@ -51,6 +74,6 @@
 			?>
 		</table>
 		<br><br>
-		<h3 id="link_text"><center><a href='http://localhost/call_my_lawyer_php/section_dashboard/dashboard.html'>Click here to redirect you to the <i>Call My Lawyer Dashboard</i></a></center></h3>
+		<h3 id="link_text"><center><a href='http://localhost/WEB%20Assignment/dashboard.html'>Click here to redirect you to the <i>Call My Lawyer Dashboard</i></a></center></h3>
 	</body>
 </html>
