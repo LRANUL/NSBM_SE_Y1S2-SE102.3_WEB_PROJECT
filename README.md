@@ -15,7 +15,7 @@ NSBM Plymouth Computing - 2nd Semester SE 102.3 WEB Module Assignment.
 Head (Founder)- Mr. R P Ladduwahetty
 Deputy Head - Mr.  H V L Hasanka
 Analysis - Mr. W.A.D.N.N. Wijesuriya 
-Architect - Mr. S L Nawod
+Support Member - Mr. S L Nawod
 Editor - Mr. A D K Dinuja
 
 
